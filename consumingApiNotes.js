@@ -52,3 +52,13 @@ getData(printDataToConsole);
 // }, 500)
 /* The above function allows to take our data out of the function by executing after 500 miliseconds, giving the ready state plenty of time get to
 and avoiding logging 'undefined.' */
+
+// data.forEach(function (item) {
+        //     // Object.keys(item).forEach(function(key) {
+        //     //     console.log(key);
+        //     // })
+        //     // el.innerHTML += "<p>" + item.name; + "</p>"
+        // });
+
+/* Without the '.results' the html simply reads '[object Object]' with '.results', you get a list of 10 of these,
+        so it still needs to be unpacked further. */
